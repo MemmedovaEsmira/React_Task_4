@@ -1,0 +1,33 @@
+.output_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom: 1px solid rgb(116, 114, 114);
+    border-radius: 5px;
+
+    img {
+
+        max-width: 1.3rem;
+        height: 1.3rem;
+
+    }
+
+    .output {
+        width: 100%;
+        padding: 1.2rem;
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+        transition: 1s;
+        color: rgb(112, 112, 112);
+        background-color: rgba(245, 222, 179, 0);
+
+    }
+
+    .output_active {
+        text-decoration: line-through;
+        color: rgba(114, 114, 114, 0.152);
+    }
+
+}

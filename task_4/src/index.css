@@ -1,0 +1,32 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+  :root {
+  
+      --primary-color-light: #fdfdfd;
+      --secondary-color-light: #fbfbfb;
+      --font-color-light: #7c7b7b;
+  
+  }
+  
+  
+  
+  @media(prefers-color-scheme:dark){
+  
+  :root{
+  
+      --primary-color-dark: #181b2b;
+      --secondary-color-dark: #25273D;
+      --font-color-dark: #7b7676ee;
+  
+  }
+  
+  
+  }
